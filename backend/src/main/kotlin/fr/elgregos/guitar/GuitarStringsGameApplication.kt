@@ -8,4 +8,5 @@ class GuitarStringsGameApplication
 
 fun main(args: Array<String>) {
     SpringApplication.run(GuitarStringsGameApplication::class.java, *args)
+
 }
