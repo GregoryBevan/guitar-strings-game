@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GregoryBevan/guitar-strings-game/issues"
   },
-  "homepage": "https://github.com/GregoryBevan/guitar-strings-game#readme"
+  "homepage": "https://github.com/GregoryBevan/guitar-strings-game#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
 }
