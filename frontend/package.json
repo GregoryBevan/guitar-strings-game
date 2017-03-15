@@ -1,0 +1,19 @@
+{
+  "name": "guitar-strings-game",
+  "version": "1.0.0",
+  "description": "Little game to discover guitar neck",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregoryBevan/guitar-strings-game.git"
+  },
+  "author": "grégory bévan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GregoryBevan/guitar-strings-game/issues"
+  },
+  "homepage": "https://github.com/GregoryBevan/guitar-strings-game#readme"
+}
