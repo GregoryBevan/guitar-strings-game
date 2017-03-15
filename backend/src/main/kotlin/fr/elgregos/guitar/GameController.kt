@@ -11,15 +11,14 @@ import javax.annotation.PostConstruct
 @RestController
 class GuitarStringsGameController {
 
-    private val log = LoggerFactory.getLogger(GuitarStringsGameController::class.java)
+	private val log = LoggerFactory.getLogger(GuitarStringsGameController::class.java)
+	
+	@PostConstruct
+	fun init() {
+		log.info(noteMatrix.toString())
+	}
 
-    val noteMatrix = NoteMatrix()
 
-    @PostConstruct
-    fun init() {
-        log.info(noteMatrix.toString())
-    }
-
-    @RequestMapping("/new-position")
-    fun newPosition() = Position(1, 1, "Fa")
+	@RequestMapping("/new-position")
+	fun newPosition() = RandomPositionGenerator().getPosition()
 }
