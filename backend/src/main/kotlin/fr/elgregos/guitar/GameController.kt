@@ -9,6 +9,7 @@ import javax.annotation.PostConstruct
  * Created by BEVAN on 15/03/2017.
  */
 @RestController
+@RequestMapping("/game")
 class GuitarStringsGameController {
 
 	private val log = LoggerFactory.getLogger(GuitarStringsGameController::class.java)
