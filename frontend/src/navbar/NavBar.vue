@@ -2,7 +2,7 @@
   <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Guitate String Games</a>
+          <a class="navbar-brand" href="#"><strong>Guitar String Games</strong></a>
         </div>
       </div>
     </nav>

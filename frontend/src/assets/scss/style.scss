@@ -1,2 +1,18 @@
 /* On importe bootstrap */
 @import "./bootstrap/bootstrap-custom";
+
+.big-btn {
+  width: 80px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.space {
+  height: 150px;
+}
+
+.note {
+  font-size: 200px;
+  font-weight: bold;
+}
