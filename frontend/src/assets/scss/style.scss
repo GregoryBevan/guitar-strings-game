@@ -9,10 +9,23 @@
 }
 
 .space {
-  height: 150px;
+  height: 130px;
 }
 
 .note {
   font-size: 200px;
   font-weight: bold;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+.mask {
+  display: none;
 }
